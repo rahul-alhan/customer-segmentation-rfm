@@ -144,6 +144,19 @@ customer-segmentation-rfm/
 
 ---
 
+## Running Tests
+
+Install dev dependencies and run the test suite:
+
+```bash
+pip install -r requirements-dev.txt
+python -m pytest -q
+```
+
+Pytest configuration lives in `pyproject.toml` (`[tool.pytest.ini_options]`). Test temp files go to `.pytest_tmp/` (gitignored).
+
+---
+
 ## License
 
 MIT
